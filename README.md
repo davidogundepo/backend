@@ -88,10 +88,10 @@ php bin/phpunit
 ```
 
 ## Built With
-- React
-- Symfony
-- LexikJWTAuthenticationBundle
-- Docker
+- **[React](https://reactjs.org/)** -  A JavaScript library for building user interfaces.
+- **[Symfony](https://symfony.com)** - A PHP web application framework.
+- **[LexikJWTAuthenticationBundle](https://github.com/lexik/LexikJWTAuthenticationBundle)** - A JWT authentication bundle for Symfony.
+- **[Docker](https://www.docker.com)** - A platform for developing, shipping, and running applications in containers.
 
 ## Authors
 - David Ogundepo
@@ -100,4 +100,6 @@ php bin/phpunit
 This project is licensed under the **[MIT License](https://opensource.org/license/mit/)**
 
 ## Acknowledgements
-- Acknow
+- **[John Mahood](https://www.linkedin.com/in/johnmahood2018/)** - For the job description and company overview.
+- **[Pascal Marechal](https://github.com/PascalMarechal)** - For providing the job interview test and guidance.
+- **[The Coaches' Voice Company](https://github.com/Jay-CoachesVoice)** - For reviewing and evaluating the project.
