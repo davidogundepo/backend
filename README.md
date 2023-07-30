@@ -25,10 +25,10 @@ The backend will run on [http://localhost:8000](http://localhost:8000).
 
 The following endpoints are available for user registration, login, user update, and user information retrieval:
 
-- **POST /api/register:** <span style="color: grey;">Register a new user.</span>
-- **POST /api/login:** <span style="color: grey;">Login with valid credentials and receive a JWT token.</span>
-- **PATCH /api/user/update:** <span style="color: grey;">Update the user's name and address (authentication required).</span>
-- **GET /api/user/info:** <span style="color: grey;">Retrieve user information (authentication required).</span>
+- **POST /api/register:** <span style="color: #008000;">Register a new user.</span>
+- **POST /api/login:** <span style="color: #008000;">Login with valid credentials and receive a JWT token.</span>
+- **PATCH /api/user/update:** <span style="color: #008000;">Update the user's name and address (authentication required).</span>
+- **GET /api/user/info:** <span style="color: #008000;">Retrieve user information (authentication required).</span>
 
 
 # Authentication
