@@ -1,5 +1,27 @@
+# config/routes.yaml
+
 controllers:
     resource:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+user_registration:
+    path: /api/register
+    controller: App\Controller\UserController::register
+    methods: ['POST']
+
+user_login:
+    path: /api/login
+    controller: App\Controller\UserController::login
+    methods: ['POST']
+
+user_update:
+    path: /api/user/update
+    controller: App\Controller\UserController::update
+    methods: ['PATCH']
+
+user_info:
+    path: /api/user/info
+    controller: App\Controller\UserController::getUserInfo
+    methods: ['GET']
