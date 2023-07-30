@@ -52,7 +52,7 @@ cd JWT-based-Authentication-System
    openssl pkey -in config/jwt/private.pem -out config/jwt/public.pem -pubout
    ```
 
-6. Enter a passphrase when generating the SSH keys, and update the .env file with the passphrase:
+6. Enter a passphrase when generating the SSH keys, and update the `.env` file with the passphrase:
    ```
    JWT_PASSPHRASE=your_passphrase_here
    ```
