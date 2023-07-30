@@ -21,7 +21,7 @@ To set up and run the backend, follow the steps below:
 The backend will run on [http://localhost:8000](http://localhost:8000).
 
 
-# Available Endpoints
+## Available Endpoints
 
 The following endpoints are available for user registration, login, user update, and user information retrieval:
 
