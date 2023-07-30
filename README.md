@@ -1,11 +1,15 @@
 #  JWT-based Authentication System - Backend
- This backend project is part of the JWT-based Authentication System, which provides a secure user authentication and authorization mechanism. The backend is built using Symfony, PHP, and MySQL.
+This is a JWT-based Authentication System developed using React and Symfony with LexikJWTAuthenticationBundle. The system allows users to register, login, and retrieve user information. Users can also update their name and address. The code prioritizes security and maintains high code quality for production readiness and post-launch support.
+
 
 ## Getting Started
 
-To set up and run the backend, follow the steps below:
+These instructions will help you set up and run the project locally on your machine.
 
-1. Install dependencies: Navigate to the "backend" folder and run the following command to install required dependencies:
+### Prerequisites
+Before running the project, you need to have the following software installed:
+
+- Docker: [Download Docker](https://www.docker.com/get-started)
 
 ### `composer install`
 
