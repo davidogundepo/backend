@@ -9,7 +9,7 @@ To set up and run the backend, follow the steps below:
 
 ### `composer install`
 
-2. Database Configuration: Create a MySQL database and update the **.env** file with your database credentials.
+2. Database Configuration: Create a MySQL database and update the **`.env`** file with your database credentials.
 3. Run Migrations: Apply the database migrations to create the necessary tables:
 
 ### `php bin/console doctrine:migrations:migrate`
@@ -25,14 +25,14 @@ The backend will run on [http://localhost:8000](http://localhost:8000).
 
 The following endpoints are available for user registration, login, user update, and user information retrieval:
 
-- **POST /api/register:** <span style="color: #008000;">_Register a new user_.</span>
-- **POST /api/login:** <span style="color: #008000;">_Login with valid credentials and receive a JWT token._</span>
-- **PATCH /api/user/update:** <span style="color: #008000;">_Update the user's name and address (authentication required)._</span>
-- **GET /api/user/info:** <span style="color: #008000;">_Retrieve user information (authentication required)._</span>
+- **`POST /api/register`:** <span style="color: #008000;">_Register a new user_.</span>
+- **`POST /api/login`:** <span style="color: #008000;">_Login with valid credentials and receive a JWT token._</span>
+- **`PATCH /api/user/update`:** <span style="color: #008000;">_Update the user's name and address (authentication required)._</span>
+- **`GET /api/user/info`:** <span style="color: #008000;">_Retrieve user information (authentication required)._</span>
 
 
 ## Authentication
-This backend uses JSON Web Tokens (JWT) for user authentication. When logging in or registering, the server issues a JWT token that should be included in the **Authorization** header for authenticated requests.
+This backend uses JSON Web Tokens (JWT) for user authentication. When logging in or registering, the server issues a JWT token that should be included in the **`Authorization`** header for authenticated requests.
 
 
 ## Error Handling
@@ -45,7 +45,7 @@ Unit tests have been written to ensure the critical functionality of the backend
 
 
 ## Docker
-This project can be containerized using Docker. In the "backend" folder, a **Dockerfile** has been provided to build the Symfony application into a container. Additionally, a **docker-compose.yml** file has been included in the root folder to orchestrate the backend and frontend containers.
+This project can be containerized using Docker. In the "backend" folder, a **`Dockerfile`** has been provided to build the Symfony application into a container. Additionally, a **`docker-compose.yml`** file has been included in the root folder to orchestrate the backend and frontend containers.
 
 
 ## Learn More
