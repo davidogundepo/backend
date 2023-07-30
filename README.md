@@ -10,6 +10,18 @@ These instructions will help you set up and run the project locally on your mach
 Before running the project, you need to have the following software installed:
 
 - Docker: [Download Docker](https://www.docker.com/get-started)
+- Node.js: [Download Node.js](https://nodejs.org/en/download/)
+- Composer: [Download Composer](https://getcomposer.org/download/)
+
+### Instaliing
+Follow these steps to get the project up and running:
+
+1. ### `git clone <https://github.com/davidogundepo/backend.git>`
+2. ### `cd JWT-based-Authentication-System`
+
+### Backend Setup
+1. Navigate to the `backend` folder:
+   ### `cd backend`
 
 ### `composer install`
 
