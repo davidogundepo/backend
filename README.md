@@ -31,29 +31,29 @@ The following endpoints are available for user registration, login, user update,
 - **GET /api/user/info:** <span style="color: #008000;">_Retrieve user information (authentication required)._</span>
 
 
-# Authentication
+## Authentication
 This backend uses JSON Web Tokens (JWT) for user authentication. When logging in or registering, the server issues a JWT token that should be included in the **Authorization** header for authenticated requests.
 
 
-# Error Handling
+## Error Handling
 The backend handles errors and provides appropriate error messages in the response. Make sure to handle the error responses in the frontend to provide a smooth user experience.
 
 
-# Testing
+## Testing
 Unit tests have been written to ensure the critical functionality of the backend. To run the tests, navigate to the "backend" folder and execute the following command:
 ### `php bin/phpunit`
 
 
-# Docker
+## Docker
 This project can be containerized using Docker. In the "backend" folder, a **Dockerfile** has been provided to build the Symfony application into a container. Additionally, a **docker-compose.yml** file has been included in the root folder to orchestrate the backend and frontend containers.
 
 
-# Learn More
+## Learn More
 To learn more about Symfony and PHP, check out the following documentation:
 
 - **Symphony documentatation** [running tests](https://symfony.com/doc/current/index.html)
 - **PHP documentation** [running tests](https://www.php.net/docs.php)
 
-# Licence
+## Licence
 
 This project is licensed under the **MIT License**. [running tests](https://opensource.org/license/mit/)
