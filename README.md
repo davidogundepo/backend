@@ -9,7 +9,7 @@ To set up and run the backend, follow the steps below:
 
 ### `composer install`
 
-2. Database Configuration: Create a MySQL database and update the `**.env**` file with your database credentials.
+2. Database Configuration: Create a MySQL database and update the **.env** file with your database credentials.
 3. Run Migrations: Apply the database migrations to create the necessary tables:
 
 ### `php bin/console doctrine:migrations:migrate`
@@ -18,65 +18,42 @@ To set up and run the backend, follow the steps below:
 
 ### `symfony server:start`
 
+The backend will run on\ [http://localhost:8000](http://localhost:8000).
 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Available Endpoints
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The following endpoints are available for user registration, login, user update, and user information retrieval:
 
-### `npm test`
+- POST /api/register: Register a new user.
+- POST /api/register:  Login with valid credentials and receive a JWT token.
+- PATCH /api/user/update: Update the user's name and address (authentication required).
+- GET /api/user/info: Retrieve user information (authentication required).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# Authentication
+This backend uses JSON Web Tokens (JWT) for user authentication. When logging in or registering, the server issues a JWT token that should be included in the **Authorization** header for authenticated requests.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Error Handling
+The backend handles errors and provides appropriate error messages in the response. Make sure to handle the error responses in the frontend to provide a smooth user experience.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# Testing
+Unit tests have been written to ensure the critical functionality of the backend. To run the tests, navigate to the "backend" folder and execute the following command:
+### `php bin/phpunit`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Docker
+This project can be containerized using Docker. In the "backend" folder, a **Dockerfile** has been provided to build the Symfony application into a container. Additionally, a **docker-compose.yml** file has been included in the root folder to orchestrate the backend and frontend containers.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Learn More
+To learn more about Symfony and PHP, check out the following documentation:
 
-## Learn More
+- **Symphony documentatation** [running tests](https://symfony.com/doc/current/index.html)
+- **PHP documentation** [running tests](https://www.php.net/docs.php)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Licence
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the **MIT License**. [running tests](https://opensource.org/license/mit/)
