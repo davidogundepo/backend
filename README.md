@@ -51,9 +51,9 @@ This project can be containerized using Docker. In the "backend" folder, a **Doc
 ## Learn More
 To learn more about Symfony and PHP, check out the following documentation:
 
-- **Symphony documentatation** [running tests](https://symfony.com/doc/current/index.html)
-- **PHP documentation** [running tests](https://www.php.net/docs.php)
+- **[Symphony documentatation](https://symfony.com/doc/current/index.html)**
+- **[PHP documentation](https://www.php.net/docs.php)**
 
 ## Licence
 
-This project is licensed under the **MIT License**. [running tests](https://opensource.org/license/mit/)
+This project is licensed under the **[MIT License](https://opensource.org/license/mit/)**
