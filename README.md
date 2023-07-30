@@ -16,8 +16,10 @@ Before running the project, you need to have the following software installed:
 ### Instaliing
 Follow these steps to get the project up and running:
 
-1. ### `git clone <https://github.com/davidogundepo/backend.git>`
-2. ### `cd JWT-based-Authentication-System`
+```
+git clone <repository_url>
+cd JWT-based-Authentication-System
+```
 
 ### Backend Setup
 1. Navigate to the `backend` folder:
