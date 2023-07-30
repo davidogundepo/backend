@@ -18,7 +18,7 @@ To set up and run the backend, follow the steps below:
 
 ### `symfony server:start`
 
-The backend will run on\ [http://localhost:8000](http://localhost:8000).
+The backend will run on [http://localhost:8000](http://localhost:8000).
 
 
 # Available Endpoints
