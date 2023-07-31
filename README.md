@@ -1,6 +1,10 @@
 #  JWT-based Authentication System - Backend
 This is a JWT-based Authentication System developed using React and Symfony with LexikJWTAuthenticationBundle. The system allows users to register, login, and retrieve user information. Users can also update their name and address. The code prioritizes security and maintains high code quality for production readiness and post-launch support.
 
+## `N.B. This is for the Back-End Repository`
+
+[Please check Frontend here](https://github.com/davidogundepo/frontend)
+
 
 ## Getting Started
 
@@ -94,7 +98,7 @@ php bin/phpunit
 - **[Docker](https://www.docker.com)** - A platform for developing, shipping, and running applications in containers.
 
 ## Authors
-- David Ogundepo
+- **[David Ogundepo](https://github.com/davidogundepo)**
 
 ## Licence
 This project is licensed under the **[MIT License](https://opensource.org/license/mit/)**
