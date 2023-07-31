@@ -1,7 +1,7 @@
 #  JWT-based Authentication System - Backend
 This is a JWT-based Authentication System developed using React and Symfony with LexikJWTAuthenticationBundle. The system allows users to register, login, and retrieve user information. Users can also update their name and address. The code prioritizes security and maintains high code quality for production readiness and post-launch support.
 
-## `N.B. This is for the Back-End Repository`
+### `N.B. This is for the Backend Repository`
 
 [Please check Frontend here](https://github.com/davidogundepo/frontend)
 
